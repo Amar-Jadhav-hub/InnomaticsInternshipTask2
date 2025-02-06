@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3c5a8;
+    color: #4a2c1f;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background-color: #6d4c41;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('coffee-hero.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: #3e2723;
+    font-size: 1.5em;
+}
+.cta-button {
+    background-color: #a9825f;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Menu Sections */
+.menu-section {
+    padding: 50px 20px;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.menu-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Additional Menus */
+.breakfast-section, .dessert-section {
+    background-color: #f4e1d2;
+    padding: 50px 20px;
+}
+
+/* Extra Image Gallery Section */
+.image-gallery {
+    background-color: #e9d3b4;
+    padding: 50px 20px;
+}
+.image-gallery h2 {
+    color: #4a2c1f;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-items: center;
+}
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Contact Section */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #6d4c41;
+    border-radius: 5px;
+}
+button {
+    background-color: #6d4c41;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #4a2c1f;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-grid, .gallery-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
