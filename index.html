@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Awakening</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Brewed Awakening</div>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to Brewed Awakening</h1>
+        <p>Freshly brewed coffee and delicious breakfast to start your day right.</p>
+        <a href="#menu" class="cta-button">View Menu</a>
+    </section>
+    
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/733763/pexels-photo-733763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich and bold espresso shot.</p>
+                <p class="price">$3.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Latte">
+                <h3>Latte</h3>
+                <p>Creamy steamed milk with espresso.</p>
+                <p class="price">$4.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Espresso, steamed milk, and foam.</p>
+                <p class="price">$4.75</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/20395998/pexels-photo-20395998/free-photo-of-coffee-cup-on-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Mocha">
+                <h3>Mocha</h3>
+                <p>Espresso with chocolate and steamed milk.</p>
+                <p class="price">$4.75</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/2280545/pexels-photo-2280545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pancakes">
+                <h3>Pancakes</h3>
+                <p>Fluffy pancakes served with syrup.</p>
+                <p class="price">$5.00</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/133578/pexels-photo-133578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Breakfast Sandwich">
+                <h3>Breakfast Sandwich</h3>
+                <p>Egg, cheese, and ham on a toasted bun.</p>
+                <p class="price">$5.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/7390/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Croissant">
+                <h3>Croissant</h3>
+                <p>Buttery and flaky croissant.</p>
+                <p class="price">$3.50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/90604/pexels-photo-90604.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blueberry Muffin">
+                <h3>Blueberry Muffin</h3>
+                <p>Freshly baked muffin with blueberries.</p>
+                <p class="price">$3.25</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gallery" class="gallery-section">
+        <h2>Our Cafe & Atmosphere</h2>
+        <div class="gallery-grid">
+            <img src="https://images.pexels.com/photos/30561510/pexels-photo-30561510/free-photo-of-cozy-modern-cafe-interior-in-boise-idaho.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cafe Interior">
+            <img src="coffee-brewing.jpg" alt="Coffee Brewing">
+            <img src="https://images.pexels.com/photos/30496238/pexels-photo-30496238/free-photo-of-charming-portrait-of-a-woman-in-cafe-setting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Cozy Corner">
+            <img src="https://images.pexels.com/photos/30488205/pexels-photo-30488205/free-photo-of-romantic-couple-enjoying-cafe-ambiance.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Happy Customers">
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Brewed Awakening is a cozy coffee shop dedicated to serving high-quality coffee and delicious breakfast options. Our mission is to create a warm and inviting atmosphere for all coffee lovers.</p>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Brewed Awakening. All rights reserved.</p>
+    </footer>
+</body>
+</html>
